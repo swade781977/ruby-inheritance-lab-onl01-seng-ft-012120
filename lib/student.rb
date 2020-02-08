@@ -5,6 +5,7 @@ class Student < User
   
   def learn(string)
     @knowledge << string
+    @knowledge
   end
 
 end
